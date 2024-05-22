@@ -1,0 +1,31 @@
+name: catalog_app
+description: A simple catalog app.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  json_annotation: ^4.8.1
+  http: ^1.1.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  barcode_scan2: ^4.2.4
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1 
+  connectivity: ^3.0.6
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/fonts/Roboto-Regular.ttf
+    - lib/assets/fonts/Roboto-Bold.ttf
+    - lib/assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: lib/assets/fonts/Roboto-Regular.ttf
+        - asset: lib/assets/fonts/Roboto-Bold.ttf
+          weight: 700
